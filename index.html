@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my.css">
+    <title>Számológép</title>
+</head>
+<body>
+    <div id="wrapper">
+    <h1>Számológép</h1>
+        <!-- kijelző -->
+        <div id="display" class="my-mb-1">
+            <span id="displayNumber1"></span>
+            <span id="displayOperantus"></span>
+            <span id="displayNumber2"></span>
+        </div>
+        <div class="bevitelGombok">
+            <!-- operantus gombok -->
+            <div id="operand-button-Wrapper" class="my-mb-1">
+                <button id="gyok">&radic;</button>
+                <button id="negyzet">x<sup>2</sup></button>
+                <button id="torles">C</button>
+                <button id="egyesevelTorles" class="fas fa-backspace"></button>
+                <button class="Szam">7</button>
+                <button class="Szam">8</button>
+                <button class="Szam">9</button>
+                <button id="szorzas">*</button>
+                <button class="Szam">4</button>
+                <button class="Szam">5</button>
+                <button class="Szam">6</button>
+                <button id="minus">-</button>
+                <button class="Szam">1</button>
+                <button class="Szam">2</button>
+                <button class="Szam">3</button>
+                <button id="plusz">+</button>
+                <button id="egyenlo">=</button>
+                <button class="Szam">0</button>
+                <button id="Szam">.</button>
+                <button id="osztas">/</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="szamologep.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</body>
+</html>

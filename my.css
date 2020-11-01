@@ -1,0 +1,52 @@
+
+body{
+    display: border-box;
+    display: flex;
+}
+
+#wrapper{
+    position: relative;
+    min-width: 520px;
+    max-width: 520px;
+    margin: auto auto;
+    padding: 5px;
+    background: lightgray;
+}
+.my-mb-1{
+    margin-bottom: 1rem;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2rem;
+}
+
+#display{
+    height: 15px;
+    text-align: right;
+    padding: 8px;
+    background: rgb(161, 170, 158);
+}
+
+#gyokvonas{
+    font-size: 0.5rem;
+}
+
+sup{
+    font-size: 30px;
+}
+
+.beviteliGombok{
+    flex: 1;
+}
+
+#operand-button-Wrapper button{
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    font-size: 3rem;
+    background-color: rgba(115, 115, 115,0.5) ;
+    color: black;
+    margin: 3px;
+}
